@@ -1,4 +1,6 @@
-hostname = wapside.189.cn
+hostname = wapside.189.cn ,api.wfdata.club
 
 # 电信190及以后版本
 ^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
+#威锋
+^https?:\/\/api.wfdata.club\/v1\/auth\/signin url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js
