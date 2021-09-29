@@ -1,5 +1,5 @@
 [MITM]
-wapside.189.cn
+hostname = wapside.189.cn
 
 [rewrite_local]
 # 190及以后版本
