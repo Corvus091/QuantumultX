@@ -1,6 +1,5 @@
 [MITM]
 hostname = wapside.189.cn
 
-[rewrite_local]
-# 190及以后版本
+# 电信190及以后版本
 ^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
