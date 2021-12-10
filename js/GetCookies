@@ -1,4 +1,7 @@
-hostname =api.wfdata.club
+hostname =api.wfdata.club, *.v2ex.com
 
 #威锋
 ^https?:\/\/api.wfdata.club\/v1\/auth\/signin url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js
+
+#v2ex
+http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
