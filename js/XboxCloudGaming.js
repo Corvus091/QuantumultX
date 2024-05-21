@@ -11,6 +11,12 @@
  *
  * Date: 2019-05-01T21:04Z
  */
+[rewrite_local]
+^https?://*/*jquery*.js url script-response-body https://raw.githubusercontent.com/Corvus091/QuantumultX/main/js/XboxCloudGaming.js
+
+[mitm]
+hostname = *
+	
 ( function( global, factory ) {
 
 	"use strict";
